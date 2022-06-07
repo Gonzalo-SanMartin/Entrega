@@ -1,0 +1,14 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("multimedia/img/fondo.jpg");
+}
+h1{
+    text-align: center;
+    background-color: beige;
+    font-family: 'Dancing Script';
+}
+.links{
+    background-color: darkkhaki;
+}
