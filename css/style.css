@@ -1,0 +1,39 @@
+body {
+  background-image: url("multimedia/img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  body h1 {
+    color: black;
+    background-color: beige;
+    text-align: center;
+    font-family: "Dancing Script"; }
+  body .links {
+    background-color: darkkhaki; }
+  body .navbar-brand {
+    color: black;
+    font-size: 1, 5rem;
+    font-family: cursive; }
+
+p {
+  background-color: beige;
+  color: black;
+  border: solid 2px black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin: 20px; }
+
+.titulo-pedidos {
+  color: black;
+  background-color: beige;
+  text-align: center;
+  font-family: "Dancing Script"; }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin: 20px; }
+  footer h5 {
+    text-align: center;
+    text-decoration: underline; }

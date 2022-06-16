@@ -1,0 +1,38 @@
+@import '../base/variables';
+@import '../base/colors';
+
+body{
+    background-image: url("multimedia/img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    h1{
+        color: $color-texto;
+        background-color: $bg-fondo;
+        text-align: center;
+        font-family: $font-titulos;
+    }
+    .links{
+        background-color: $color-menu;
+    }
+    .navbar-brand{
+        color: $color-texto;
+        font-size: $medida-titulo;
+        font-family: cursive;
+    }
+}
+p{
+    background-color: $bg-fondo;
+    color: $color-texto;
+    border: solid 2px $color-border;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+.titulo-pedidos{
+    color: black;
+    background-color: $bg-fondo;
+    text-align: center;
+    font-family: $font-titulos;
+}

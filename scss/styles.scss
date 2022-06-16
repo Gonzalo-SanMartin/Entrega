@@ -1,28 +1,4 @@
-$color-fondo: beige;
-$color-texto: black;
-$color-menu: darkkhaki;
-$medida-texto: 10px;
-
-body{
-    background-image: url("multimedia/img/fondo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-h1{
-    color: black;
-    background-color: $color-fondo;
-    text-align: center;
-    font-family: 'Dancing Script';
-}
-.links{
-    background-color: $color-menu;
-}
-p{
-    background-color: $color-fondo;
-    color: $color-texto;
-    border: solid 2px black;
-    padding: 5px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import 'components/header';
+@import 'components/footer';
+@import 'base/colors';
+@import 'base/variables';
