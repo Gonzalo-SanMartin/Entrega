@@ -1,5 +1,5 @@
 body {
-  background-image: url("multimedia/img/fondo.jpg");
+  background-image: url("/multimedia/img/fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -37,3 +37,13 @@ footer {
   footer h5 {
     text-align: center;
     text-decoration: underline; }
+
+.box .card-text {
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  border: 0px;
+  background-color: white; }
+
+.box .card-title h5 {
+  text-align: center; }

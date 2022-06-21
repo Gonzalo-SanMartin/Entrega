@@ -1,5 +1,0 @@
-Alan buenas tardes, te paso a explicar lo que fui modificando, como te consulte por privado, pude modificar todo lo que tenia en el styles.scss y pase todo a las distintas carpetas necesarias, creo que algunas cosas no me quedaron en claro, pero para la proxima entrega ya las voy a modiicar.
-cree las carpetas -base y -components, en las cuales agregue los archivos scss correspondientes.
-tambien pude organizar en carpetas los archivos HTML menos el index como me lo solicitaste en la ultima entrega.
-
-Muchas gracias.

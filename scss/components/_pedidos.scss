@@ -1,0 +1,16 @@
+@import '../base/colors';
+
+// .card-text{
+//     border: 1px solid $color-texto;
+// }
+.box .card-text{
+    color: $color-texto;
+    font-family: 'Dancing Script', cursive;
+    // font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border: 0px;
+    background-color: white;
+}
+.box .card-title h5{
+    text-align: center;
+}
