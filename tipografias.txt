@@ -1,0 +1,5 @@
+'Luli Pasteleria'
+1- font-family: 'Amatic SC', cursive;
+2- 'Lobster Two', cursive
+3- 'Dancing Script'
+4- 'Oswald', sans-serif

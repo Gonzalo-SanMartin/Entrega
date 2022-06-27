@@ -10,15 +10,23 @@ body{
         color: $color-texto;
         background-color: $bg-fondo;
         text-align: center;
+        font-family: $font-titulo-luli;
+    }
+    h2{
+        color: $color-texto;
+        background-color: $bg-fondo;
+        text-align: $text-center;
+        font-size: 50px;
         font-family: $font-titulos;
+        
     }
     .links{
         background-color: $color-menu;
     }
     .navbar-brand{
         color: $color-texto;
-        font-size: $medida-titulo;
-        font-family: cursive;
+        font-size: $medida-luli;
+        font-family: $font-titulo-luli
     }
 }
 p{

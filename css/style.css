@@ -7,13 +7,19 @@ body {
     color: black;
     background-color: beige;
     text-align: center;
-    font-family: "Dancing Script"; }
+    font-family: "Cedarville Cursive", cursive; }
+  body h2 {
+    color: black;
+    background-color: beige;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif; }
   body .links {
     background-color: darkkhaki; }
   body .navbar-brand {
     color: black;
-    font-size: 1, 5rem;
-    font-family: cursive; }
+    font-size: 30px;
+    font-family: "Cedarville Cursive", cursive; }
 
 p {
   background-color: beige;
@@ -28,7 +34,7 @@ p {
   color: black;
   background-color: beige;
   text-align: center;
-  font-family: "Dancing Script"; }
+  font-family: "Oswald", sans-serif; }
 
 footer {
   text-align: center;
@@ -43,7 +49,10 @@ footer {
   font-family: 'Dancing Script', cursive;
   text-align: center;
   border: 0px;
+  padding: 1px;
+  margin: 1px;
   background-color: white; }
 
-.box .card-title h5 {
-  text-align: center; }
+h5 {
+  text-align: center;
+  font-size: 25px; }

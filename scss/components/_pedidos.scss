@@ -6,11 +6,16 @@
 .box .card-text{
     color: $color-texto;
     font-family: 'Dancing Script', cursive;
-    // font-family: 'Poppins', sans-serif;
     text-align: center;
     border: 0px;
+    padding: 1px;
+    margin: 1px;
     background-color: white;
 }
-.box .card-title h5{
-    text-align: center;
+h5{
+    text-align: $text-center;
+    font-size: 25px;
 }
+// .box .card-title h5{
+//     text-align: center;
+// }
