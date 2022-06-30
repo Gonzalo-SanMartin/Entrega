@@ -1,0 +1,12 @@
+@import './header';
+@import './footer';
+@import '../base/colors';
+@import '../base/titulos';
+@import '../base/variables';
+
+#formulario{
+    border: solid 1px black;
+    margin: 15px;
+    padding: 15px;
+    background-color: $bg-soy
+}

@@ -56,6 +56,42 @@
           </nav>
     </header> 
       <h1>Dejanos tu Comentario</h1>
+      <!-- completar formulario en base a la pasteleria  -->
+      <section id="formulario" class="d-flex justify-content-center">
+        <form action="#">
+            <fieldset>
+                <legend>Completa el formulario para dejarnos tu comentario</legend>
+                    <div>
+                        <label for="Nombre">Escribe Tu nombre</label>
+                        <input type="nombre" name="Nombre" required placeholder="Nombre">
+                    </div>
+                    <div>
+                      <label for="nac">Fecha en que fue el evento</label>
+                      <input type="date" name="nac">
+                  </div>
+                    <div>
+                        <label for="sexo">Indica si te gusto</label>
+                        <input type="radio" name="Genero" value="Muy bueno">Muy bueno
+                        <input type="radio" name="Genero" value="Bueno">Bueno
+                        <input type="radio" name="Genero" value="No me gusto">No me gusto
+                    </div>
+                    
+                    <div>
+                        <label for="comentario" name="comentario">Dejanos tu comentario</label>
+                        <textarea name="comentario" id="" cols="30" rows="2"></textarea>
+                    </div>
+                    <div>
+                      <label for="email">Email</label>
+                      <input type="email" name="email" placeholder="EMAIL">
+                  </div>
+                    <div>
+                        <input type="submit" value="enviar datos">
+                        <input type="reset" value="reiniciar formulario">
+                    </div>
+
+            </fieldset>        
+        </form>
+    </section>
   </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

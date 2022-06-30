@@ -1,0 +1,43 @@
+@import './header';
+@import './footer';
+@import '../base/colors';
+@import '../base/titulos';
+@import '../base/variables';
+
+.titulo-soy{
+    text-align: center;
+    font-family: $font-titulos;
+    background-color: $bg-soy;
+}
+.story-soy{
+    background-color: $bg-fondo;
+    color: $color-texto;
+    border: solid 2px $color-border;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    justify-content: flex-start;
+    iframe{
+        display: flex;
+    }
+}
+.historia-como{
+    text-align: center;
+    border: dotted 1px black;
+}
+
+.story-como{
+    background-color: $bg-fondo;
+    border: solid 2px gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 15px;
+}
+
+.falso-footer{
+    text-align: $text-center;
+    padding: 20px;
+    margin: 20px;
+}

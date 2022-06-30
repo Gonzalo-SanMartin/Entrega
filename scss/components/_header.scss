@@ -1,5 +1,6 @@
 @import '../base/variables';
 @import '../base/colors';
+@import '../base/titulos';
 
 body{
     background-image: url('/multimedia/img/fondo.jpg');
@@ -29,7 +30,7 @@ body{
         font-family: $font-titulo-luli
     }
 }
-p{
+.texto-uno .texto-unos{
     background-color: $bg-fondo;
     color: $color-texto;
     border: solid 2px $color-border;
