@@ -7,7 +7,10 @@
 .titulo-soy{
     text-align: center;
     font-family: $font-titulos;
-    background-color: $bg-soy;
+    //background-color: $bg-soy;
+    border: solid 1px black;
+    padding: 15px;
+    margin: 15px;
 }
 .story-soy{
     background-color: $bg-fondo;
@@ -40,4 +43,9 @@
     text-align: $text-center;
     padding: 20px;
     margin: 20px;
+}
+body .navbar-brand{
+    color: $color-texto;
+    font-size: $medida-luli;
+    font-family: $font-titulo-luli;
 }

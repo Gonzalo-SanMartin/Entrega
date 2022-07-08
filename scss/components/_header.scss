@@ -12,13 +12,15 @@ body{
         background-color: $bg-fondo;
         text-align: center;
         font-family: $font-titulo-luli;
+
     }
     h2{
         color: $color-texto;
-        background-color: $bg-fondo;
+        // background-color: $bg-fondo;
         text-align: $text-center;
         font-size: 50px;
         font-family: $font-titulos;
+        padding: 20px;
         
     }
     .links{
@@ -27,7 +29,7 @@ body{
     .navbar-brand{
         color: $color-texto;
         font-size: $medida-luli;
-        font-family: $font-titulo-luli
+        font-family: $font-titulo-luli;
     }
 }
 .texto-uno .texto-unos{
@@ -39,9 +41,10 @@ body{
     padding: 20px;
     margin: 20px;
 }
-.titulo-pedidos{
+.titulos-pag{
     color: black;
-    background-color: $bg-fondo;
+    // background-color: $bg-fondo;
     text-align: center;
     font-family: $font-titulos;
+    padding: 20px;
 }

@@ -1,4 +1,6 @@
 @import '../base/colors';
+@import '../base/variables';
+@import '../base/titulos';
 
 // .card-text{
 //     border: 1px solid $color-texto;
@@ -12,6 +14,10 @@
     margin: 1px;
     background-color: white;
 }
+#cajas{
+    padding: 10px;
+    margin: 10px;
+}
 h5{
     text-align: $text-center;
     font-size: 25px;
@@ -19,3 +25,8 @@ h5{
 // .box .card-title h5{
 //     text-align: center;
 // }
+body .navbar-brand{
+        color: $color-texto;
+        font-size: $medida-luli;
+        font-family: $font-titulo-luli;
+}
