@@ -9,13 +9,14 @@ alert (`${nombre} elegiste ${productos}`);
 let precio = 0;
 let precioTotal = 0;
 
+
+
+
+
 do{
     if(productos === 1){
-        unidad = parseInt(prompt(`Elegiste ${productos} \nMacarons \n1u $100 \n6u $500 \n12u $1000`));
-        if(unidad === 1){
-            precio = 100;
-            operacion(precio);
-        }else if(unidad === 6){
+        unidad = parseInt(prompt(`Elegiste ${productos} \nMacarons \n6u $500 \n12u $1000`));
+        if(unidad === 6){
             precio = 500;
             operacion(precio);
         }else if(unidad === 12){

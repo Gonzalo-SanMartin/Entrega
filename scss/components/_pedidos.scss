@@ -18,6 +18,14 @@
     padding: 10px;
     margin: 10px;
 }
+.box .carrito{
+    background-color: $color-menu;
+    border-radius: 6px;
+    color: $color-texto;
+    width: 120px;
+    height: 30px;
+    transition: .4s;
+}
 h5{
     text-align: $text-center;
     font-size: 25px;
