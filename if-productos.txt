@@ -1,17 +1,5 @@
-alert("Bienvenido a Luli Pasteleria");
-
-let nombre = prompt("Igrese su nombre");
-alert(`Bienvenido ${nombre} a Luli Pasteleria`);
-
-let productos = parseInt(prompt("Ingrese \n1 Macarons, \n2 Torta rosa con flores naturales, \n3 Torta frutilla, \n4 Mix frutilla y chocolate"));
-alert (`${nombre} elegiste ${productos}`);
-
-let precio = 0;
-let precioTotal = 0;
-
-do{
-    if(productos === 1){
-        unidad = parseInt(prompt(`Elegiste ${productos} \nMacarons \n1u $100 \n6u $500 \n12u $1000`));
+if(productos === 1){
+        unidad = parseInt(prompt(`Elegiste ${productos} \nMacarons \n1u $100 \n6u $500`));
         if(unidad === 1){
             precio = 100;
             operacion(precio);
@@ -53,20 +41,3 @@ do{
         }else("no contamos con ese producto")
         
     }
-    
-
-    precioTotal = precio + precioTotal
-    respuesta = prompt(`${nombre} queres seguir comprando \nsi \nno`).toLowerCase();
-
-    if(respuesta === "si"){
-        productos = parseInt(prompt("Ingrese \n1 Macarons, \n2 Torta rosa con flores naturales, \n3 Torta frutilla, \n4 Mix frutilla y chocolate"));
-        alert (`${nombre} elegiste ${productos}`);
-    }else if(respuesta === "no"){
-        alert("Total " + precioTotal)
-    }
-
-}while(respuesta != "no");
-
-function operacion(precio){
-    alert("precio total " + precio);
-}
